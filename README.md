@@ -48,6 +48,8 @@ localGit -- Push --> GitHub
 Database <--> Jenkins
 ```
 
+![JenkinsHistory](/Screenshot/JenkinsHistory.png)
+
 * Can have locally running CI pipeline through one command: `docker compose up`
 * Fully automated Jenkins configuration, plugin installations, and pipeline setup to eliminate manual steps. Used plugins:
     * [Jenkins Configuration as a Code (JCasC)](https://www.jenkins.io/projects/jcasc/)
@@ -163,6 +165,8 @@ end
 localGit -- Push --> Git
 
 ```
+
+![CodePipelineHistory](/Screenshot/CodePipelineHistory.png)
 
 ### Choices considered & Rationale
 * **AWS vs Azure vs GCP**
